@@ -79,12 +79,12 @@ function App() {
             
               <div class="mb-3 ">
               <input type="checkbox" checked={includeUpperCase} onChange={(e) => setIncludeUpperCase(e.target.checked)} class="form-check-input" id="upperCase"/>
-              <label class="form-check-label " for="exampleCheck1">Add Uppercase Letters</label>
+              <label class="form-check-label " for="exampleCheck1">Uppercase Letters</label>
               </div>
               
               <div class="mb-3 ">
               <input type="checkbox" checked={includeLowerCase} onChange={(e) => setIncludeLowerCase(e.target.checked)} class="form-check-input" id="lowerCase"/>
-              <label class="form-check-label" for="exampleCheck1">Add Lowercase Letters</label>
+              <label class="form-check-label" for="exampleCheck1">Lowercase Letters</label>
               </div>
               
               <div class="mb-3 ">
